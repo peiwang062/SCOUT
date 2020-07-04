@@ -121,6 +121,14 @@ python cf_PIoU_ss_vgg_cub.py --student=advanced
 The [pre-trained models](https://drive.google.com/drive/folders/1fh1HMqjrFFctkTgjYvylEiUhEQP3aZOg?usp=sharing) for all experiments are availiable.
 
 
+## Disclaimer
+
+The code has not been purified and polished so far. We will do this soon. For questions, feel free to reach out
+```
+Pei Wang: peiwang062@gmail.com
+```
+
+
 ## References
 
 [1] Ramprasaath R Selvaraju, Michael Cogswell, Abhishek Das, Ramakrishna Vedantam, Devi Parikh, and Dhruv Batra.  Grad-cam:  Visual explanations from deep networks via gradient-based localization.  In Proceedings of the IEEE International Conference on Computer Vision, pages 618–626, 2017.
