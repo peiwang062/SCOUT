@@ -60,7 +60,7 @@ parser.add_argument('--weight-decay', '--wd', default=1e-4, type=float,
 parser.add_argument('--lr_step', default='5', help='decreasing strategy')
 parser.add_argument('--print-freq', '-p', default=10, type=int,
                     metavar='N', help='print frequency (default: 10)')
-parser.add_argument('--resume', default='./cub200/checkpoint_res50_hp.pth.tar', type=str, metavar='PATH',
+parser.add_argument('--resume', default='./cub200/checkpoint_pretrain_res50.pth.tar', type=str, metavar='PATH',
                     help='path to latest checkpoint (default: none)')
 parser.add_argument('-e', '--evaluate', dest='evaluate', action='store_true',
                     help='evaluate model on validation set')
