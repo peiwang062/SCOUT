@@ -6,7 +6,7 @@ This repository contains the source code accompanying our CVPR 2020 paper.
 
 **[SCOUT: Self-Aware Discriminant Counterfactual Explanations](https://openaccess.thecvf.com/content_CVPR_2020/html/Wang_SCOUT_Self-Aware_Discriminant_Counterfactual_Explanations_CVPR_2020_paper.html)**  
 [Pei Wang](http://www.svcl.ucsd.edu/~peiwang), [Nuno Vasconcelos](http://www.svcl.ucsd.edu/~nuno).  
-In Computer Vision and Pattern Recognition, 2019.
+In Computer Vision and Pattern Recognition, 2020.
 
 ```
 @InProceedings{Wang_2020_CVPR,
