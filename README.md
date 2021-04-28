@@ -9,7 +9,7 @@ This repository contains the source code accompanying our CVPR 2020 paper.
 In Computer Vision and Pattern Recognition, 2020.
 
 ```
-@InProceedings{Wang_2020_CVPR,
+@InProceedings{wang2020scout,
 author = {Wang, Pei and Vasconcelos, Nuno},
 title = {SCOUT: Self-Aware Discriminant Counterfactual Explanations},
 booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
