@@ -789,8 +789,16 @@ def cf_proposal_extraction(val_loader, val_loader_cf, heat_map_hp, heat_map_cls,
         part_Locs_example = all_locations[index_bank[predicted_class[i]], :]
         part_Locs_example = np.concatenate(
             (np.reshape(part_Locs_example[0::2], (-1, 1)), np.reshape(part_Locs_example[1::2], (-1, 1))), axis=1)
-        part_Locs_example[:, 0] = 224.0 * part_Locs_example[:, 0] / img_Y_max
-        part_Locs_example[:, 1] = 224.0 * part_Locs_example[:, 1] / img_X_max
+        part_Locs_example[:, 0] = 255.0 * part_Locs_example[:, 0] / img_Y_max
+        part_Locs_example[:, 1] = 255.0 * part_Locs_example[:, 1] / img_X_max
+        for i_p in range(np.size(part_Locs_example, axis=0)):
+            if np.sum(part_Locs_example[i_p, :]) == 0:
+                continue
+            if part_Locs_example[i_p, 0] < 16 or part_Locs_example[i_p, 1] < 16 or part_Locs_example[i_p, 0] > 239 or \
+                            part_Locs_example[i_p, 1] > 239:
+                part_Locs_example[i_p, :] = np.array([0.0, 0.0])
+            else:
+                part_Locs_example[i_p, :] = part_Locs_example[i_p, :] - 16
         part_Locs_example = np.round(part_Locs_example)
         part_Locs_example = part_Locs_example.astype(int)
 
