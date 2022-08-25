@@ -118,7 +118,7 @@ python cf_PIoU_ss_vgg_cub.py --student=advanced
 
 ### pretrained models
 
-The [pre-trained models](https://drive.google.com/drive/folders/1fh1HMqjrFFctkTgjYvylEiUhEQP3aZOg?usp=sharing) for all experiments are availiable.
+The [pre-trained models](https://drive.google.com/drive/folders/1EGjw-vl5CnKPss2baOh69S9gPGbu9AUk?usp=sharing) for all experiments are availiable.
 
 
 ## Disclaimer
